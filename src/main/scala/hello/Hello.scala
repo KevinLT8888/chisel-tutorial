@@ -18,6 +18,7 @@ class HelloTests(c: Hello) extends PeekPokeTester(c) {
 
 object Hello {
   def main(args: Array[String]): Unit = {
-    if (!Driver(() => new Hello())(c => new HelloTests(c))) System.exit(1)
+    //if (!Driver(() => new Hello())(c => new HelloTests(c))) System.exit(1)
+    chisel3.Driver.execute(Array[String](),() => new Hello())
   }
 }

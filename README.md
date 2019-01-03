@@ -1,6 +1,17 @@
 Chisel Tutorials (Release branch)
 ================
 
+It now can generate verilog code now! 
+
+When you run "sbt run" you can find a Hello.v in the main directory.
+
+You can generate your own verilog code by writing chisel codes.
+
+Enjoy!
+
+Powered by SiFive China.
+
+----------------
 These are the tutorials for [Chisel](https://github.com/ucb-bar/chisel3).
 
 Chisel is an open-source hardware construction language developed
